@@ -1,0 +1,21 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Data and model weights (too big for git -> Hugging Face Hub)
+data/
+models/
+*.bin
+*.safetensors
+*.pt
+*.model
+
+# Course material (not ours to publish)
+*.docx
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
