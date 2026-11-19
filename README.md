@@ -22,6 +22,11 @@ On first start the trained models (~630 MB) are downloaded from the Hugging Face
 ([Nurlss/chat-moderation-models](https://huggingface.co/Nurlss/chat-moderation-models)) into `models/`.
 Then open http://localhost:8501 and type a message.
 
+Notes from a clean-install test (Windows 11, Python 3.12):
+- The first start of a new environment can take about a minute, because the models download and load.
+- On Windows, clone into a short path (e.g. `C:\work\`). Very deep folders can hit the 260-character
+  path limit during `pip install` (`WinError 206`).
+
 ## The four models (same held-out test set)
 
 | # | Model | Technique area |
