@@ -1,0 +1,19 @@
+{
+  "model": "1b_tfidf_logreg",
+  "macro_f1": 0.7258,
+  "f1_offensive": 0.6062,
+  "accuracy": 0.7779,
+  "confusion_matrix [[TN, FP], [FN, TP]]": [
+    [
+      522,
+      98
+    ],
+    [
+      93,
+      147
+    ]
+  ],
+  "n_test": 860,
+  "C": 1,
+  "vocab_size": 29755
+}
