@@ -1,0 +1,21 @@
+{
+  "model": "2_word2vec_ffn",
+  "macro_f1": 0.6714,
+  "f1_offensive": 0.5204,
+  "accuracy": 0.7407,
+  "confusion_matrix [[TN, FP], [FN, TP]]": [
+    [
+      516,
+      104
+    ],
+    [
+      119,
+      121
+    ]
+  ],
+  "n_test": 860,
+  "w2v_vocab": 8568,
+  "dim": 100,
+  "best_epoch": 21,
+  "optimizer": "SGD lr=0.05 momentum=0.9"
+}
