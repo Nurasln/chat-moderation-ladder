@@ -1,0 +1,19 @@
+{
+  "model": "3_bert_fp32",
+  "macro_f1": 0.7821,
+  "f1_offensive": 0.6929,
+  "accuracy": 0.8186,
+  "confusion_matrix [[TN, FP], [FN, TP]]": [
+    [
+      528,
+      92
+    ],
+    [
+      64,
+      176
+    ]
+  ],
+  "n_test": 860,
+  "precision": "float32",
+  "eval_device": "cpu"
+}
