@@ -19,7 +19,7 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 On first start the trained models (~630 MB) are downloaded from the Hugging Face Hub
-([Nurasln/chat-moderation-models](https://huggingface.co/Nurasln/chat-moderation-models)) into `models/`.
+([Nurlss/chat-moderation-models](https://huggingface.co/Nurlss/chat-moderation-models)) into `models/`.
 Then open http://localhost:8501 and type a message.
 
 ## The four models (same held-out test set)

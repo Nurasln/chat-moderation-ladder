@@ -10,4 +10,4 @@ LABELS = ["clean", "offensive"]  # 0 = clean, 1 = offensive
 SEED = 42
 
 # Where the trained model files are published (weights are not stored in git)
-HF_MODEL_REPO = "Nurasln/chat-moderation-models"
+HF_MODEL_REPO = "Nurlss/chat-moderation-models"
