@@ -1,0 +1,19 @@
+{
+  "model": "4_bert_int8",
+  "macro_f1": 0.7971,
+  "f1_offensive": 0.6923,
+  "accuracy": 0.8512,
+  "confusion_matrix [[TN, FP], [FN, TP]]": [
+    [
+      588,
+      32
+    ],
+    [
+      96,
+      144
+    ]
+  ],
+  "n_test": 860,
+  "precision": "int8 (dynamic, nn.Linear weights)",
+  "eval_device": "cpu"
+}
