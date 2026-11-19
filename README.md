@@ -22,6 +22,7 @@ uv venv .venv --python 3.12
 uv pip install --python .venv -r requirements.txt
 .venv\Scripts\python -m src.data              # downloads data into data/
 .venv\Scripts\python -m src.train_classical   # model 1: lexicon rule + TF-IDF/LogReg
+.venv\Scripts\python -m src.train_nn          # model 2: own Word2Vec + feedforward net (SGD)
 ```
 
 Each training script writes `results/metrics/<model>.json` (scores on the test set) and
