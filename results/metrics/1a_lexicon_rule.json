@@ -1,0 +1,20 @@
+{
+  "model": "1a_lexicon_rule",
+  "macro_f1": 0.7186,
+  "f1_offensive": 0.5608,
+  "accuracy": 0.807,
+  "confusion_matrix [[TN, FP], [FN, TP]]": [
+    [
+      588,
+      32
+    ],
+    [
+      134,
+      106
+    ]
+  ],
+  "n_test": 860,
+  "lexicon_size": 52,
+  "min_count": 15,
+  "min_ratio": 0.7
+}
